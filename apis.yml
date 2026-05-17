@@ -70,11 +70,11 @@ common:
     url: https://www.zoho.com/books/support/
   - type: Blog
     url: https://www.zoho.com/books/blog/
-  - type: Status
+  - type: StatusPage
     url: https://status.zoho.com/
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.zoho.com/privacy.html
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.zoho.com/terms.html
   - type: Developer Console
     url: https://api-console.zoho.com/
