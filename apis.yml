@@ -56,6 +56,10 @@ apis:
       - type: OpenAPI
         url: openapi/zoho-books-openapi.yml
 common:
+  - type: VulnerabilityDisclosure
+    url: security/zoho-books-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/zoho-books-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/zoho
   - type: LinkedIn
