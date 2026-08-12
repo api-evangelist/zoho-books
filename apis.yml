@@ -39,33 +39,62 @@ created: '2026-05-11'
 modified: '2026-05-11'
 specificationVersion: '0.19'
 apis:
-  - aid: zoho-books:rest-api-v3
-    name: Zoho Books REST API v3
-    description: >-
-      The Zoho Books REST API v3 provides full programmatic access to the
-      Zoho Books accounting data model including contacts, invoices,
-      estimates, sales orders, purchase orders, bills, expenses, banking,
-      items, taxes, projects, and financial reports. Authentication uses
-      OAuth 2.0 with the Zoho-oauthtoken header, and base URLs vary by
-      regional data center (.com, .eu, .in, .com.au, .jp, .ca, .com.cn,
-      .sa). Standard pagination, filtering, and rate limiting are
-      supported with up to 100 requests per minute per organization.
-    humanURL: https://www.zoho.com/books/api/v3/introduction/
-    baseURL: https://www.zohoapis.com/books/v3
-    tags:
-      - Accounting
-      - Invoicing
-      - Expenses
-      - Banking
-      - OAuth 2.0
-      - REST
-    properties:
-      - type: Documentation
-        url: https://www.zoho.com/books/api/v3/introduction/
-      - type: Authentication
-        url: https://www.zoho.com/books/api/v3/oauth/
-      - type: OpenAPI
-        url: openapi/zoho-books-openapi.yml
+- aid: zoho-books:zoho-books-contacts-api
+  name: Zoho Books Contacts API
+  description: The Contacts API from Zoho Books — 4 operation(s) for contacts.
+  humanURL: https://www.zoho.com/books/api/v3/introduction/
+  baseURL: https://www.zohoapis.com/books/v3
+  tags:
+  - Contacts
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-books-contacts-api-openapi.yml
+  - type: Documentation
+    url: https://www.zoho.com/books/api/v3/introduction/
+  - type: Authentication
+    url: https://www.zoho.com/books/api/v3/oauth/
+- aid: zoho-books:zoho-books-invoices-api
+  name: Zoho Books Invoices API
+  description: The Invoices API from Zoho Books — 5 operation(s) for invoices.
+  humanURL: https://www.zoho.com/books/api/v3/introduction/
+  baseURL: https://www.zohoapis.com/books/v3
+  tags:
+  - Invoices
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-books-invoices-api-openapi.yml
+  - type: Documentation
+    url: https://www.zoho.com/books/api/v3/introduction/
+  - type: Authentication
+    url: https://www.zoho.com/books/api/v3/oauth/
+- aid: zoho-books:zoho-books-items-api
+  name: Zoho Books Items API
+  description: The Items API from Zoho Books — 2 operation(s) for items.
+  humanURL: https://www.zoho.com/books/api/v3/introduction/
+  baseURL: https://www.zohoapis.com/books/v3
+  tags:
+  - Items
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-books-items-api-openapi.yml
+  - type: Documentation
+    url: https://www.zoho.com/books/api/v3/introduction/
+  - type: Authentication
+    url: https://www.zoho.com/books/api/v3/oauth/
+- aid: zoho-books:zoho-books-organizations-api
+  name: Zoho Books Organizations API
+  description: The Organizations API from Zoho Books — 1 operation(s) for organizations.
+  humanURL: https://www.zoho.com/books/api/v3/introduction/
+  baseURL: https://www.zohoapis.com/books/v3
+  tags:
+  - Organizations
+  properties:
+  - type: OpenAPI
+    url: openapi/zoho-books-organizations-api-openapi.yml
+  - type: Documentation
+    url: https://www.zoho.com/books/api/v3/introduction/
+  - type: Authentication
+    url: https://www.zoho.com/books/api/v3/oauth/
 common:
   - type: VulnerabilityDisclosure
     url: security/zoho-books-vulnerability-disclosure.yml
