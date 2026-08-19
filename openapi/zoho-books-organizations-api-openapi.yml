@@ -1,0 +1,29 @@
+openapi: 3.2.0
+info:
+  title: Zoho Books Organizations API
+  description: REST API for Zoho Books, covering invoices, contacts, items, and organizations.
+  version: v3
+servers:
+- url: https://www.zohoapis.com/books/v3
+  description: Production (US data center; regional domains include .eu, .in, .com.au, .jp, .ca, .com.cn, .sa)
+security:
+- ZohoOAuth: []
+tags:
+- name: Organizations
+paths:
+  /organizations:
+    get:
+      summary: List organizations
+      operationId: listOrganizations
+      responses:
+        '200':
+          description: OK
+      tags:
+      - Organizations
+components:
+  securitySchemes:
+    ZohoOAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: 'OAuth 2.0 access token sent as ''Authorization: Zoho-oauthtoken {access_token}''.'

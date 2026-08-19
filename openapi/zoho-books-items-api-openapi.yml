@@ -1,0 +1,68 @@
+openapi: 3.2.0
+info:
+  title: Zoho Books Items API
+  description: REST API for Zoho Books, covering invoices, contacts, items, and organizations.
+  version: v3
+servers:
+- url: https://www.zohoapis.com/books/v3
+  description: Production (US data center; regional domains include .eu, .in, .com.au, .jp, .ca, .com.cn, .sa)
+security:
+- ZohoOAuth: []
+tags:
+- name: Items
+paths:
+  /items:
+    get:
+      summary: List items
+      operationId: listItems
+      responses:
+        '200':
+          description: OK
+      tags:
+      - Items
+    post:
+      summary: Create an item
+      operationId: createItem
+      responses:
+        '201':
+          description: Created
+      tags:
+      - Items
+  /items/{item_id}:
+    parameters:
+    - name: item_id
+      in: path
+      required: true
+      schema:
+        type: string
+    get:
+      summary: Retrieve an item
+      operationId: getItem
+      responses:
+        '200':
+          description: OK
+      tags:
+      - Items
+    put:
+      summary: Update an item
+      operationId: updateItem
+      responses:
+        '200':
+          description: OK
+      tags:
+      - Items
+    delete:
+      summary: Delete an item
+      operationId: deleteItem
+      responses:
+        '200':
+          description: OK
+      tags:
+      - Items
+components:
+  securitySchemes:
+    ZohoOAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: 'OAuth 2.0 access token sent as ''Authorization: Zoho-oauthtoken {access_token}''.'
