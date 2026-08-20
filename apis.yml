@@ -73,6 +73,8 @@ apis:
   humanURL: https://www.zoho.com/books/api/v3/introduction/
   baseURL: https://www.zohoapis.com/books/v3
   tags:
+  - Item
+  tags_raw:
   - Items
   properties:
   - type: OpenAPI
@@ -87,6 +89,8 @@ apis:
   humanURL: https://www.zoho.com/books/api/v3/introduction/
   baseURL: https://www.zohoapis.com/books/v3
   tags:
+  - Organization
+  tags_raw:
   - Organizations
   properties:
   - type: OpenAPI
