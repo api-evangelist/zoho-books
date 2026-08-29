@@ -112,6 +112,9 @@ apis:
   - type: Authentication
     url: https://www.zoho.com/books/api/v3/oauth/
 common:
+  - type: CapabilityMap
+    url: capabilities/zoho-books-capability-edges.yml
+    name: Zoho Books Business Capability Map
   - type: VulnerabilityDisclosure
     url: security/zoho-books-vulnerability-disclosure.yml
   - type: DomainSecurity
