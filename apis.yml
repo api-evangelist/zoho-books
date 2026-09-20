@@ -112,6 +112,8 @@ apis:
   - type: Authentication
     url: https://www.zoho.com/books/api/v3/oauth/
 common:
+  - type: Plans
+    url: plans/zoho-books-plans-pricing.yml
   - type: CapabilityMap
     url: capabilities/zoho-books-capability-edges.yml
     name: Zoho Books Business Capability Map

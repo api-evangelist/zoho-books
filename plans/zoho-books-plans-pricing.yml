@@ -1,0 +1,145 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-09-20'
+method: searched
+source: https://www.zoho.com/us/books/pricing/
+sources:
+- https://www.zoho.com/us/books/pricing/
+- https://www.zoho.com/books/pricing/
+provenance:
+  tool: planning/api-economics/harvest_pricing.py
+  run: 20260920T120546
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+published: true
+note: Accounting SaaS tiers; API Access included from Standard plan upward. Monthly and annual (discounted)
+  prices both shown; add-ons listed with monthly and annual-billed prices.
+plan_count: 17
+currency: USD
+plans:
+- name: FREE
+  price_text: $ 0
+  price: 0
+  currency: USD
+  period: month
+  unit: Price/Org/Month
+  included_quota: 1 User + 1 Accountant; Email Support; up to 1,000 invoices annually
+- name: STANDARD
+  price_text: $ 20
+  price: 20
+  currency: USD
+  period: month
+  unit: Price/Org/Month
+  included_quota: 3 Users; API Access; up to 5,000 invoices annually
+- name: STANDARD (billed annually)
+  price_text: $ 15
+  price: 15
+  currency: USD
+  period: month
+  unit: Price/Org/Month Billed Annually
+  included_quota: 3 Users
+- name: PROFESSIONAL
+  price_text: $ 50
+  price: 50
+  currency: USD
+  period: month
+  unit: Price/Org/Month
+  included_quota: 5 Users
+- name: PROFESSIONAL (billed annually)
+  price_text: $ 40
+  price: 40
+  currency: USD
+  period: month
+  unit: Price/Org/Month Billed Annually
+  included_quota: 5 Users
+- name: PREMIUM
+  price_text: $ 70
+  price: 70
+  currency: USD
+  period: month
+  unit: Price/Org/Month
+  included_quota: 10 Users
+- name: PREMIUM (billed annually)
+  price_text: $ 60
+  price: 60
+  currency: USD
+  period: month
+  unit: Price/Org/Month Billed Annually
+  included_quota: 10 Users
+- name: ELITE
+  price_text: $ 150
+  price: 150
+  currency: USD
+  period: month
+  unit: Price/Org/Month
+  included_quota: 10 Users
+- name: ELITE (billed annually)
+  price_text: $ 120
+  price: 120
+  currency: USD
+  period: month
+  unit: Price/Org/Month Billed Annually
+  included_quota: 10 Users
+- name: ULTIMATE
+  price_text: $ 275
+  price: 275
+  currency: USD
+  period: month
+  unit: Price/Org/Month
+  included_quota: 15 Users; Records/Rows (3 Million)
+- name: ULTIMATE (billed annually)
+  price_text: $ 240
+  price: 240
+  currency: USD
+  period: month
+  unit: Price/Org/Month Billed Annually
+  included_quota: 15 Users
+- name: Users add-on
+  price_text: $3 per user/month
+  price: 3
+  currency: USD
+  period: month
+  unit: per user
+- name: Users add-on (annual)
+  price_text: $2.50 per user/month
+  price: 2.5
+  currency: USD
+  period: month
+  unit: per user billed annually
+- name: Document autoscans add-on
+  price_text: $ 8
+  price: 8
+  currency: USD
+  period: month
+  unit: /50 scans/month Billed annually
+  included_quota: 50 scans/month
+- name: Locations add-on
+  price_text: $ 10
+  price: 10
+  currency: USD
+  period: month
+  unit: /location/month Billed annually
+- name: Expense claim add-on
+  price_text: $ 7
+  price: 7
+  currency: USD
+  period: month
+  unit: Per active user/month Billed annually
+- name: BillPay add-on
+  price_text: $ 59
+  price: 59
+  currency: USD
+  period: month
+  unit: /month Billed annually
+  included_quota: 100 ACH vendor payments
+rate_limit_statements:
+- 'Free Plan: Up to 1,000 invoices can be created annually.'
+- 'Standard Plan: Up to 5,000 invoices can be created annually.'
+- 'Professional Plan: Allows up to 10,000 invoices annually.'
+- 'Premium Plan: Allows up to 25,000 invoices annually.'
+- 'Elite Plan and Ultimate Plan: Allow up to 100,000 invoices annually.'
+- 'Free & trial users: 50 scans per month'
+- 'Standard & professional: 200 scans per month'
+- 'Premium & above: 1,000 scans per month'
+- You can schedule a total of 5 reports in the free plan, 50 reports in the Standard plan, 200 reports
+  in the Professional, Premium, Elite, and Ultimate plans.
