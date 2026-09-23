@@ -1,10 +1,7 @@
 {
   "provider": "zoho-books",
   "sources": [
-    "zoho-books-contacts-api-openapi.yml",
-    "zoho-books-invoices-api-openapi.yml",
-    "zoho-books-items-api-openapi.yml",
-    "zoho-books-organizations-api-openapi.yml"
+    "_original/zoho-books-openapi.yml"
   ],
   "outputs": [
     "zoho-books-contacts-api-openapi.yml",
@@ -16,7 +13,39 @@
   "errors": [],
   "warnings": [],
   "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "zoho-books-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "zoho-books-openapi.yml: tagged paths GET /organizations -> Organizations",
+    "zoho-books-openapi.yml: tagged paths GET /invoices -> Invoices",
+    "zoho-books-openapi.yml: tagged paths POST /invoices -> Invoices",
+    "zoho-books-openapi.yml: tagged paths GET /invoices/{invoice_id} -> Invoices",
+    "zoho-books-openapi.yml: tagged paths PUT /invoices/{invoice_id} -> Invoices",
+    "zoho-books-openapi.yml: tagged paths DELETE /invoices/{invoice_id} -> Invoices",
+    "zoho-books-openapi.yml: tagged paths POST /invoices/{invoice_id}/email -> Invoices",
+    "zoho-books-openapi.yml: tagged paths POST /invoices/{invoice_id}/status/sent -> Invoices",
+    "zoho-books-openapi.yml: tagged paths POST /invoices/{invoice_id}/status/void -> Invoices",
+    "zoho-books-openapi.yml: tagged paths GET /contacts -> Contacts",
+    "zoho-books-openapi.yml: tagged paths POST /contacts -> Contacts",
+    "zoho-books-openapi.yml: tagged paths GET /contacts/{contact_id} -> Contacts",
+    "zoho-books-openapi.yml: tagged paths PUT /contacts/{contact_id} -> Contacts",
+    "zoho-books-openapi.yml: tagged paths DELETE /contacts/{contact_id} -> Contacts",
+    "zoho-books-openapi.yml: tagged paths POST /contacts/{contact_id}/active -> Contacts",
+    "zoho-books-openapi.yml: tagged paths POST /contacts/{contact_id}/inactive -> Contacts",
+    "zoho-books-openapi.yml: tagged paths GET /items -> Items",
+    "zoho-books-openapi.yml: tagged paths POST /items -> Items",
+    "zoho-books-openapi.yml: tagged paths GET /items/{item_id} -> Items",
+    "zoho-books-openapi.yml: tagged paths PUT /items/{item_id} -> Items",
+    "zoho-books-openapi.yml: tagged paths DELETE /items/{item_id} -> Items",
+    "zoho-books-openapi.yml: declared missing tag: Contacts",
+    "zoho-books-openapi.yml: declared missing tag: Invoices",
+    "zoho-books-openapi.yml: declared missing tag: Items",
+    "zoho-books-openapi.yml: declared missing tag: Organizations",
     "apis.yml register: already-registered"
   ],
-  "skipped": []
+  "skipped": [
+    "zoho-books-contacts-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "zoho-books-invoices-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "zoho-books-items-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "zoho-books-organizations-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
