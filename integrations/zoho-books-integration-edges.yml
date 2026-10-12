@@ -1,0 +1,449 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/zoho-books/integrations
+- https://n8n.io/integrations/zoho-books/
+checked:
+- https://composio.dev/toolkits/zoho-books
+- https://monid.ai/tools/zoho-books
+- https://n8n.io/integrations/zoho-books/
+- https://zapier.com/apps/zoho-books/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: zoho-books
+  url: https://zapier.com/apps/zoho-books/integrations
+  external_url: https://go.zoho.com/3Al
+  partner_tier: BRONZE
+  triggers:
+  - key: new_contact
+    label: New Customer
+  - key: new_estimate
+    label: New Estimate
+  - key: new_expense
+    label: New Expense
+  - key: new_invoice
+    label: New Sales Invoice
+  - key: new_item
+    label: New Item
+  actions:
+  - key: create_contact
+    label: Create Customer
+  - key: create_estimate_v2
+    label: Create Estimate
+  - key: create_invoice_v2
+    label: Create Sales Invoice
+  - key: create_item
+    label: Create Item
+  - key: _zap_raw_request
+    label: API Request (Beta)
+  searches:
+  - key: find_invoice
+    label: Find Invoice
+- marketplace: n8n
+  channel: open-source-node
+  app: zoho-books
+  url: https://n8n.io/integrations/zoho-books/
+  identity: title
+  pair_pages: 6
+  pairs:
+  - zoho-crm
+  - zoho-desk
+  - zonka-feedback
+  - zoom
+  - zscaler-zia
+  - zulip
+edges:
+- partner_name: Shopify
+  partner: shopify
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/shopify
+  direction: third-party
+  category: eCommerce
+  partner_url: https://www.shopify.com/
+- partner_name: Xero
+  partner: xero
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/xero
+  direction: third-party
+  category: Accounting
+  partner_url: https://xero5440.partnerlinks.io/uvwuuwrxyoi8
+- partner_name: WooCommerce
+  partner: woocommerce
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/woocommerce
+  direction: third-party
+  category: eCommerce
+  partner_url: https://woocommerce.com/products/woocommerce-zapier/?utm_source=zapier&utm_medium=website&utm_campaign=integration
+- partner_name: Gmail
+  partner: gmail
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/gmail
+  direction: third-party
+  category: Email
+  partner_url: https://mail.google.com/
+- partner_name: HubSpot
+  partner: hubspot
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/hubspot
+  direction: third-party
+  category: Marketing Automation
+  partner_url: http://www.hubspot.com/
+- partner_name: Wix
+  partner: wix
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/wix
+  direction: third-party
+  category: Website Builders
+  partner_url: https://www.wix.com/
+- partner_name: QuickBooks Online
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/quickbooks
+  direction: third-party
+  category: Accounting
+  partner_url: http://intuit.com/
+- partner_name: Amazon Seller Central
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/amazon-seller-central
+  direction: third-party
+  category: Amazon
+  partner_url: https://sellercentral.amazon.com/
+- partner_name: Google Sheets
+  partner: google-sheets
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/google-sheets
+  direction: third-party
+  category: Google
+  partner_url: http://sheets.google.com/
+- partner_name: Airtable
+  partner: airtable
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/airtable
+  direction: third-party
+  category: Databases
+  partner_url: https://airtable.com/
+- partner_name: Tally
+  partner: tally
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/tally
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: https://try.tally.so/zapier
+- partner_name: Loyverse
+  partner: loyverse
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/loyverse
+  direction: third-party
+  category: Sales & CRM
+  partner_url: https://zapier.com/loyverse.com
+- partner_name: monday.com
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/monday
+  direction: third-party
+  category: Project Management
+  partner_url: https://monday.com/
+- partner_name: Google Forms
+  partner: google-forms
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/google-forms
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://google.com/
+- partner_name: Notion
+  partner: notion
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/notion
+  direction: third-party
+  category: Task Management
+  partner_url: https://www.notion.so/
+- partner_name: Jotform
+  partner: jotform
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/jotform
+  direction: third-party
+  category: Forms & Surveys
+  partner_url: http://www.jotform.com/
+- partner_name: ClickUp
+  partner: clickup
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/clickup
+  direction: third-party
+  category: Project Management
+  partner_url: https://clickup.com/zapier
+- partner_name: Microsoft Excel
+  partner: null
+  partner_match: null
+  partner_candidate: zapier
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/excel
+  direction: third-party
+  category: Microsoft
+  partner_url: https://zapier.com/office.com
+- partner_name: WhatsApp Notifications
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/whatsapp-notifications
+  direction: third-party
+  category: Communication
+  partner_url: null
+- partner_name: Slack
+  partner: slack
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/slack
+  direction: third-party
+  category: Team Chat
+  partner_url: https://slack.com/
+- partner_name: Square
+  partner: square
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/square
+  direction: third-party
+  category: eCommerce
+  partner_url: https://squareup.com/t/cmtp_performance/pr_developers/d_partnerships/p_zapier/?route=
+- partner_name: eBay
+  partner: ebay
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/ebay
+  direction: third-party
+  category: eCommerce
+  partner_url: https://www.ebay.com/
+- partner_name: Jobber
+  partner: jobber
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/jobber
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://www.getjobber.com/plp/zapier?utm_source=Zapier&utm_medium=PLP
+- partner_name: LeadConnector
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/leadconnector
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.leadconnectorhq.com/
+- partner_name: Zoho CRM
+  partner: zoho-crm
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/zoho-crm
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://go.zoho.com/wOk
+- partner_name: Google Drive
+  partner: google-drive
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/google-drive
+  direction: third-party
+  category: File Management & Storage
+  partner_url: https://www.google.com/drive/
+- partner_name: Stripe
+  partner: stripe
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/stripe
+  direction: third-party
+  category: Payment Processing
+  partner_url: https://stripe.com/
+- partner_name: Pipedrive
+  partner: pipedrive
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/pipedrive
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://pipedrive.com/
+- partner_name: Ecwid by Lightspeed
+  partner: ecwid
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/ecwid
+  direction: third-party
+  category: eCommerce
+  partner_url: https://www.ecwid.com/
+- partner_name: Squarespace Commerce
+  partner: squarespace
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/squarespace-commerce
+  direction: third-party
+  category: Website Builders
+  partner_url: https://squarespace.com/
+templates:
+- title: Add Contact to Customer List With Email in Google Ads for New Customer in Zoho Books
+  url: https://zapier.com/apps/google-ads/integrations/zoho-books/1008176/add-contact-to-customer-list-with-email-in-google-ads-for-new-customer-in-zoho-books
+  apps:
+  - zoho-books
+  - google-ads
+- title: Subscribe new Zoho Books customers to a list on Mailchimp
+  url: https://zapier.com/apps/mailchimp/integrations/zoho-books/12679/subscribe-new-zoho-books-customers-to-a-list-on-mailchimp
+  apps:
+  - zoho-books
+  - mailchimp
+- title: Create Google Sheet rows for new Zoho Books sales invoices
+  url: https://zapier.com/apps/google-sheets/integrations/zoho-books/202938/create-google-sheet-rows-for-new-zoho-books-sales-invoices
+  apps:
+  - zoho-books
+  - google-sheets
+- title: Create new Zoho Books customers from new Mercury transactions
+  url: https://zapier.com/apps/mercury/integrations/zoho-books/255640879/create-new-zoho-books-customers-from-new-mercury-transactions
+  apps:
+  - mercury
+  - zoho-books
+- title: Send new Zoho Books sales invoices to Google Ads as offline conversions
+  url: https://zapier.com/apps/google-ads/integrations/zoho-books/255601671/send-new-zoho-books-sales-invoices-to-google-ads-as-offline-conversions
+  apps:
+  - zoho-books
+  - google-ads
+- title: Create projections in Cash Flow Frog from new Zoho Books sales invoices
+  url: https://zapier.com/apps/cash-flow-frog/integrations/zoho-books/877734/create-projections-in-cash-flow-frog-from-new-zoho-books-sales-invoices
+  apps:
+  - zoho-books
+  - cash-flow-frog
+- title: Create sales invoices in Zoho Books for new submissions in Jotform
+  url: https://zapier.com/apps/jotform/integrations/zoho-books/1609860/create-sales-invoices-in-zoho-books-for-new-submissions-in-jotform
+  apps:
+  - jotform
+  - zoho-books
+- title: Create invoices in Zoho Books from new WooCommerce orders
+  url: https://zapier.com/apps/woocommerce/integrations/zoho-books/12677/create-invoices-in-zoho-books-from-new-woocommerce-orders
+  apps:
+  - woocommerce
+  - zoho-books
+- title: Post messages to a Slack channel with new invoices from Zoho Books
+  url: https://zapier.com/apps/slack/integrations/zoho-books/12678/post-messages-to-a-slack-channel-with-new-invoices-from-zoho-books
+  apps:
+  - zoho-books
+  - slack
+- title: Add Zoho Books customers from new submissions on Gravity Forms
+  url: https://zapier.com/apps/gravity-forms/integrations/zoho-books/12717/add-zoho-books-customers-from-new-submissions-on-gravity-forms
+  apps:
+  - gravity-forms
+  - zoho-books
+- title: Create Zoho Books customers from new Jotform submissions
+  url: https://zapier.com/apps/jotform/integrations/zoho-books/1241534/create-zoho-books-customers-from-new-jotform-submissions
+  apps:
+  - jotform
+  - zoho-books
+- title: Create Zoho Books customers with new Zoho Forms entries.
+  url: https://zapier.com/apps/zoho-books/integrations/zoho-forms/1211752/create-zoho-books-customers-with-new-zoho-forms-entries
+  apps:
+  - zoho-forms
+  - zoho-books
+template_total: 718
