@@ -146,7 +146,6 @@
   arazzo: null
 - slug: zoho-books-amazon-seller-central
   label: Amazon Seller Central
-  partner: amazon-seller-central
   partner_name: Amazon Seller Central
   category: Amazon
   type: marketplace
@@ -154,7 +153,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/zoho-books/integrations/amazon-seller-central
   source: edge
-  status: pending-generation
+  status: pending-partner-spec
   arazzo: null
 - slug: zoho-books-airtable
   label: Airtable
@@ -194,7 +193,6 @@
   arazzo: null
 - slug: zoho-books-monday-com
   label: monday.com
-  partner: monday-com
   partner_name: monday.com
   category: Project Management
   type: marketplace
@@ -202,7 +200,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/zoho-books/integrations/monday
   source: edge
-  status: pending-generation
+  status: pending-partner-spec
   arazzo: null
 - slug: zoho-books-google-forms
   label: Google Forms
@@ -242,7 +240,6 @@
   arazzo: null
 - slug: zoho-books-microsoft-excel
   label: Microsoft Excel
-  partner: microsoft-excel
   partner_name: Microsoft Excel
   category: Microsoft
   type: marketplace
@@ -250,7 +247,7 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/zoho-books/integrations/excel
   source: edge
-  status: pending-generation
+  status: pending-partner-spec
   arazzo: null
 - slug: zoho-books-whatsapp-notifications
   label: WhatsApp Notifications
@@ -380,5 +377,56 @@
   channel: ipaas-usage
   evidence: https://zapier.com/apps/zoho-books/integrations/squarespace-commerce
   source: edge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-zapier
+  label: Zapier
+  partner: zapier
+  partner_name: Zapier
+  type: marketplace
+  marketplace: zapier-directory
+  channel: ipaas-listing
+  evidence: https://zapier.com/apps/zoho-books/integrations
+  source: edge
+  relationship: ipaas-bridge
+  contract_reference:
+    register: Zapier app directory (zapier.com/api/v4/apps)
+    spec_file: null
+    role: ipaas-connector:zapier
+    registered_name: Zoho Books
+    matched_domain: zoho.com
+    matched_by: domain+name-among-holders
+    detected_by: sweep-workflow-automation.py
+    detected: '2026-10-15'
+    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
+    app_slug: zoho-books
+    beta: false
+    builder: unknown (not in the directory record)
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-pipedream
+  label: Pipedream
+  partner: pipedream
+  partner_name: Pipedream
+  type: marketplace
+  marketplace: pipedream-components
+  channel: open-source-node
+  evidence: https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/zoho_books
+  source: edge
+  relationship: ipaas-bridge
+  contract_reference:
+    register: Pipedream components (PipedreamHQ/pipedream components/)
+    spec_file: null
+    role: ipaas-connector:pipedream
+    registered_name: zoho books
+    matched_domain: zoho.com
+    matched_by: domain+name-among-holders
+    detected_by: sweep-workflow-automation.py
+    detected: '2026-10-15'
+    signal_note: one edge per (provider, platform); actions, triggers and usage counts are context, never read
+    app_slug: zoho_books
+    actions: true
+    sources: true
+    builder: Pipedream repo (component)
   status: pending-generation
   arazzo: null
