@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/google-sheets/integrations/zoho-books/202938/create-google-sheet-rows-for-new-zoho-books-sales-invoices
   template: https://zapier.com/apps/google-sheets/integrations/zoho-books/202938/create-google-sheet-rows-for-new-zoho-books-sales-invoices
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: zoho-books-create-sales-invoices-in-zoho-books-for-new-submissions-in-jotform
@@ -29,6 +30,7 @@
   evidence: https://zapier.com/apps/jotform/integrations/zoho-books/1609860/create-sales-invoices-in-zoho-books-for-new-submissions-in-jotform
   template: https://zapier.com/apps/jotform/integrations/zoho-books/1609860/create-sales-invoices-in-zoho-books-for-new-submissions-in-jotform
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: zoho-books-create-invoices-in-zoho-books-from-new-woocommerce-orders
@@ -43,6 +45,7 @@
   evidence: https://zapier.com/apps/woocommerce/integrations/zoho-books/12677/create-invoices-in-zoho-books-from-new-woocommerce-orders
   template: https://zapier.com/apps/woocommerce/integrations/zoho-books/12677/create-invoices-in-zoho-books-from-new-woocommerce-orders
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: zoho-books-post-messages-to-a-slack-channel-with-new-invoices-from-zoho-books
@@ -57,6 +60,7 @@
   evidence: https://zapier.com/apps/slack/integrations/zoho-books/12678/post-messages-to-a-slack-channel-with-new-invoices-from-zoho-books
   template: https://zapier.com/apps/slack/integrations/zoho-books/12678/post-messages-to-a-slack-channel-with-new-invoices-from-zoho-books
   source: template
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: zoho-books-create-zoho-books-customers-from-new-jotform-submissions
@@ -71,312 +75,7 @@
   evidence: https://zapier.com/apps/jotform/integrations/zoho-books/1241534/create-zoho-books-customers-from-new-jotform-submissions
   template: https://zapier.com/apps/jotform/integrations/zoho-books/1241534/create-zoho-books-customers-from-new-jotform-submissions
   source: template
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-shopify
-  label: Shopify
-  partner: shopify
-  partner_name: Shopify
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/shopify
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-xero
-  label: Xero
-  partner: xero
-  partner_name: Xero
-  category: Accounting
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/xero
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-gmail
-  label: Gmail
-  partner: gmail
-  partner_name: Gmail
-  category: Email
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/gmail
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-hubspot
-  label: HubSpot
-  partner: hubspot
-  partner_name: HubSpot
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/hubspot
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-wix
-  label: Wix
-  partner: wix
-  partner_name: Wix
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/wix
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-quickbooks-online
-  label: QuickBooks Online
-  partner_name: QuickBooks Online
-  category: Accounting
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/quickbooks
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-amazon-seller-central
-  label: Amazon Seller Central
-  partner_name: Amazon Seller Central
-  category: Amazon
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/amazon-seller-central
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-airtable
-  label: Airtable
-  partner: airtable
-  partner_name: Airtable
-  category: Databases
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/airtable
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-tally
-  label: Tally
-  partner: tally
-  partner_name: Tally
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/tally
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-loyverse
-  label: Loyverse
-  partner: loyverse
-  partner_name: Loyverse
-  category: Sales & CRM
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/loyverse
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-monday-com
-  label: monday.com
-  partner_name: monday.com
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/monday
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-google-forms
-  label: Google Forms
-  partner: google-forms
-  partner_name: Google Forms
-  category: Forms & Surveys
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/google-forms
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-notion
-  label: Notion
-  partner: notion
-  partner_name: Notion
-  category: Task Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/notion
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-clickup
-  label: ClickUp
-  partner: clickup
-  partner_name: ClickUp
-  category: Project Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/clickup
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-microsoft-excel
-  label: Microsoft Excel
-  partner_name: Microsoft Excel
-  category: Microsoft
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/excel
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-whatsapp-notifications
-  label: WhatsApp Notifications
-  partner_name: WhatsApp Notifications
-  category: Communication
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/whatsapp-notifications
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-square
-  label: Square
-  partner: square
-  partner_name: Square
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/square
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-ebay
-  label: eBay
-  partner: ebay
-  partner_name: eBay
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/ebay
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-jobber
-  label: Jobber
-  partner: jobber
-  partner_name: Jobber
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/jobber
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-leadconnector
-  label: LeadConnector
-  partner_name: LeadConnector
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/leadconnector
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: zoho-books-zoho-crm
-  label: Zoho CRM
-  partner: zoho-crm
-  partner_name: Zoho CRM
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/zoho-crm
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/google-drive
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-stripe
-  label: Stripe
-  partner: stripe
-  partner_name: Stripe
-  category: Payment Processing
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/stripe
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-pipedrive
-  label: Pipedrive
-  partner: pipedrive
-  partner_name: Pipedrive
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/pipedrive
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-ecwid-by-lightspeed
-  label: Ecwid by Lightspeed
-  partner: ecwid
-  partner_name: Ecwid by Lightspeed
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/ecwid
-  source: edge
-  status: pending-generation
-  arazzo: null
-- slug: zoho-books-squarespace-commerce
-  label: Squarespace Commerce
-  partner: squarespace
-  partner_name: Squarespace Commerce
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/zoho-books/integrations/squarespace-commerce
-  source: edge
+  relationship: ipaas-bridge
   status: pending-generation
   arazzo: null
 - slug: zoho-books-airbyte
@@ -527,4 +226,339 @@
   source: edge
   relationship: platform-app
   status: not-a-workflow
+  arazzo: null
+- slug: zoho-books-shopify
+  label: Shopify
+  partner: shopify
+  partner_name: Shopify
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/shopify
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-xero
+  label: Xero
+  partner: xero
+  partner_name: Xero
+  category: Accounting
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/xero
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-gmail
+  label: Gmail
+  partner: gmail
+  partner_name: Gmail
+  category: Email
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/gmail
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zoho-books-hubspot
+  label: HubSpot
+  partner: hubspot
+  partner_name: HubSpot
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/hubspot
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-wix
+  label: Wix
+  partner: wix
+  partner_name: Wix
+  category: Website Builders
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/wix
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-quickbooks-online
+  label: QuickBooks Online
+  partner: quickbooks
+  partner_name: QuickBooks Online
+  category: Accounting
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/quickbooks
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zoho-books-amazon-seller-central
+  label: Amazon Seller Central
+  partner: amazon
+  partner_name: Amazon Seller Central
+  category: Amazon
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/amazon-seller-central
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-notion
+  label: Notion
+  partner: notion
+  partner_name: Notion
+  category: Task Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/notion
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-airtable
+  label: Airtable
+  partner: airtable
+  partner_name: Airtable
+  category: Databases
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/airtable
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-tally
+  label: Tally
+  partner: tally
+  partner_name: Tally
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/tally
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-loyverse
+  label: Loyverse
+  partner: loyverse
+  partner_name: Loyverse
+  category: Sales & CRM
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/loyverse
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-monday-com
+  label: monday.com
+  partner: monday-com
+  partner_name: monday.com
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/monday
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-google-forms
+  label: Google Forms
+  partner: google-forms
+  partner_name: Google Forms
+  category: Forms & Surveys
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/google-forms
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-clickup
+  label: ClickUp
+  partner: clickup
+  partner_name: ClickUp
+  category: Project Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/clickup
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-microsoft-excel
+  label: Microsoft Excel
+  partner_name: Microsoft Excel
+  category: Microsoft
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/excel
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zoho-books-whatsapp-notifications
+  label: WhatsApp Notifications
+  partner_name: WhatsApp Notifications
+  category: Communication
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/whatsapp-notifications
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zoho-books-stripe
+  label: Stripe
+  partner: stripe
+  partner_name: Stripe
+  category: Payment Processing
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/stripe
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-square
+  label: Square
+  partner: square
+  partner_name: Square
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/square
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-ebay
+  label: eBay
+  partner: ebay
+  partner_name: eBay
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/ebay
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-jobber
+  label: Jobber
+  partner: jobber
+  partner_name: Jobber
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/jobber
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-leadconnector
+  label: LeadConnector
+  partner_name: LeadConnector
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/leadconnector
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: zoho-books-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/google-drive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-zoho-crm
+  label: Zoho CRM
+  partner: zoho-crm
+  partner_name: Zoho CRM
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/zoho-crm
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-ecwid-by-lightspeed
+  label: Ecwid by Lightspeed
+  partner: ecwid
+  partner_name: Ecwid by Lightspeed
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/ecwid
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-squarespace-commerce
+  label: Squarespace Commerce
+  partner: squarespace
+  partner_name: Squarespace Commerce
+  category: Website Builders
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/squarespace-commerce
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
+  arazzo: null
+- slug: zoho-books-shipstation
+  label: ShipStation
+  partner: shipstation
+  partner_name: ShipStation
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/zoho-books/integrations/shipstation
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-generation
   arazzo: null
